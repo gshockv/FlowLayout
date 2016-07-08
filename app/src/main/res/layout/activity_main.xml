@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="48dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context="io.github.gshockv.flowlayout.MainActivity">
+
+    <io.github.gshockv.flowlayout.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/tag"
+            android:text="Hello World!" />
+
+        <TextView
+            style="@style/tag"
+            android:text="Hello!" />
+        <TextView
+            style="@style/tag"
+            android:text="Hi..." />
+
+        <TextView
+            style="@style/tag"
+            android:text="Android" />
+        <TextView
+            style="@style/tag"
+            android:text="Swift" />
+        <TextView
+            style="@style/tag"
+            android:text="Measuring child with long tag" />
+        <TextView
+            style="@style/tag"
+            android:text="Ня" />
+        <TextView
+            style="@style/tag"
+            android:text="Mi Mi MiMI Mi" />
+        <TextView
+            style="@style/tag"
+            android:text="Android Development" />
+        <TextView
+            style="@style/tag"
+            android:text="Android Awesome" />
+
+    </io.github.gshockv.flowlayout.FlowLayout>
+
+</FrameLayout>
